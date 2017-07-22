@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Raleway');
+
+body {
+    background-color: #aaa;
+    font-family: 'Raleway', sans-serif;
+    background-image: url("background.jpeg");
+    height: 100%; 
+}
+font {
+    color: black;
+    }
+.body{
+    font-family: 'Raleway', sans-serif;
+    background-image: "background.jpeg";
+    background-color: #aaa;
+
+    
+}.row1{
+    width: 200px;
+     opacity: 1;
+    filter: alpha(opacity=90);
+}
+.list-group a{
+    color: black;
+}
+.list-group a:visited {
+    color: #aaa;
+}
+.list-group a:hover {
+    color: burlywood;
+}
+.list-group a{
+     text-decoration: none
+}
+
+ /* selected link */ 
+/* .a:active {
+    color: burlywood;
+} */
+/* .my-link{
+    	color: white;
+	font-weight: 900;
+	text-decoration: none;
+
+}
+/*4. invert the color: text is white, background is black*/
+/*5. add a left padding of: 1rem*/
+/* .my-link:hover, .my-link:active{
+	color:black;
+	background-color:white;
+	padding-left: 1rem; */ 

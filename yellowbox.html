@@ -34,13 +34,20 @@
          
          <!-- Defines the pattern marker that we are going to use. Notice that we are not providing the image file, but the  -->
          <!-- "compiled" .patt file that we got from the online tool. The marker MUST BE ACCESSIBLE VIA HTTPS -->
-         <a-marker preset='custom' type='pattern' url='https://Lina-i-tahir.github.io/images/pattern-marker1.patt'>
+         <a-marker preset='custom' type='pattern' url='https://Lina-i-tahir.github.io/images/pattern-06_updated.patt'>
          
             <!-- Here we define the content to show on the marker when it gets detected: a unit cube that lies on the floor and that is red -->
             <a-box position='0 0.5 0' color="red"></a-box>
            
          </a-marker>
-      
+         
+         <!-- Defines the barcode marker that we are going to use. We have just to specify its code, that in this case is 2 -->
+         <a-marker type="barcode" value="6">
+         
+            <!-- A yellow box -->
+            <a-box position='0 0.5 0' color="yellow"></a-box>
+ 
+         </a-marker>
          
          <!-- Define the camera of the scene -->
          <a-entity camera></a-entity>

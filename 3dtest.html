@@ -35,18 +35,14 @@
     <!-- depending on your needs. For now just stick with these ones -->
     <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false;'>
         <a-assets>
-   
-            <a-asset-item id="tree" src="https://Lina-i-tahir.github.io/images/scene.gltf"></a-asset-item>
- 
-        </a-assets>
+             <a-asset-item id="db-mtl" src="Lina-i-tahir.github.io/images/01Alocasia_obj.mtl"></a-asset-item>
+            <a-asset-item id="db-obj" src="Lina-i-tahir.github.io/images/01Alocasia_obj.obj"></a-asset-item>
+      </a-assets>
 
         <a-marker preset='custom' type='pattern' url='https://Lina-i-tahir.github.io/pattern-qr-code-3d.patt'> 
- 
-    <a-entity gltf-model="#tree"></a-entity>
-         
-  
-      </a-marker>
-         
+            <a-obj-model src="#db-obj" mtl="#db-mtl" position="0 1.8 0"
+                animation="property: rotation; to: 0 360 0; loop: true; dur: 6000"></a-obj-model>
+        </a-marker>  
          <!-- Define the camera of the scene -->
          <a-entity camera></a-entity>
     </a-scene>

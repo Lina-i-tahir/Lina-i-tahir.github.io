@@ -24,6 +24,7 @@
     }; 
     </script>  
 </head>
+<body>
 <a-scene  embedded artoolkit='sourceType: webcam; sourceWidth: 240; sourceHeight: 180;' antialias="true" outline>
   <a-assets>
     <a-asset-item id="mymodel" src="https://Lina-i-tahir.github.io/images/HIRO.jpg"></a-asset-item>
@@ -37,3 +38,4 @@
   </a-marker>
   <a-entity camera></a-entity>
 </a-scene>
+</body>
